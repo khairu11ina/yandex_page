@@ -1,0 +1,323 @@
+.station__title {
+  color: #010101;
+  font-size: 92px;
+  font-weight: 400;
+  line-height: 102.5%; /* 94.3px */
+  letter-spacing: 1.84px;
+  margin-left: 70px;
+  margin-bottom: 50px;
+}
+
+.station__appeal {
+  color: #010101;
+  font-size: 32.2px;
+  font-weight: 300;
+  line-height: 118.5%; /* 38.157px */
+  letter-spacing: 0.644px;
+  margin-left: 70px;
+  margin-right: 133px;
+  margin-bottom: 190px;
+}
+
+.zigbee {
+  background: url(../img/zigbee.png) no-repeat;
+  color: white;
+}
+
+.zigbee__title {
+  font-size: 46px;
+  font-weight: 300;
+  line-height: 114%; /* 52.44px */
+  padding-top: 85px;
+  margin-bottom: 30px;
+  margin-left: 70px;
+}
+.zigbee__appeal {
+  font-size: 32.2px;
+  font-weight: 400;
+  line-height: 125%; /* 40.25px */
+  letter-spacing: 0.644px;
+  margin-bottom: 50px;
+  margin-left: 70px;
+}
+.zigbee__appeal2 {
+  font-size: 32.2px;
+  font-weight: 400;
+  line-height: 125%; /* 40.25px */
+  letter-spacing: 0.644px;
+  margin-bottom: 50px;
+  margin-left: 70px;
+  margin-right: 300px;
+}
+.zigbee__appeal3 {
+  font-size: 46px;
+  font-weight: 300;
+  line-height: 125%; /* 40.25px */
+  letter-spacing: 0.644px;
+  padding-bottom: 890px;
+  margin-left: 70px;
+  margin-right: 300px;
+  position: relative;
+}
+.zigbee__appeal3::before {
+  content: '—';
+  position: absolute;
+  left: -60px;
+}
+
+.sensor {
+  background: url(../img/sensor.png) top no-repeat;
+  margin-bottom: 150px;
+}
+
+.zigbee__text {
+  padding-top: 850px;
+}
+
+.other {
+  background: url(../img/other.png) top no-repeat;
+}
+.other__appeal {
+  font-size: 32.2px;
+  font-weight: 400;
+  line-height: 125%; /* 40.25px */
+  letter-spacing: 0.644px;
+  margin-left: 70px;
+  padding-bottom: 100px;
+}
+.other__text {
+  padding-top: 750px;
+  padding-bottom: 88px;
+}
+
+.last {
+  background: url(../img/last.png) top no-repeat;
+  color: white;
+}
+.last__appeal {
+  font-size: 46px;
+  font-weight: 300;
+  line-height: 125%; /* 40.25px */
+  letter-spacing: 0.644px;
+  padding-top: 360px;
+  padding-bottom: 800px;
+  margin-left: 465px;
+  margin-right: 50px;
+  position: relative;
+}
+.last__appeal::before {
+  content: '—';
+  position: absolute;
+  left: -60px;
+}
+
+.station__appealW,
+.lastW {
+  display: none;
+}
+.flex {
+  display: block;
+}
+
+@media (width>=2368px) {
+  .station__appeal,
+  .last__appeal {
+    display: none;
+  }
+  .containerW {
+    padding: 0;
+  }
+  .station__title {
+    margin-top: 300px;
+    margin-right: 300px;
+    padding-left: 150px;
+
+    font-size: 148px;
+    font-weight: 400;
+    line-height: 108%; /* 159.84px */
+    letter-spacing: -1.48px;
+  }
+  .station__appealW {
+    display: block;
+
+    padding: 50px 950px 120px 225px;
+
+    font-size: 29.6px;
+    font-weight: 400;
+    line-height: 125%; /* 37px */
+    letter-spacing: 0.296px;
+  }
+  .zigbee {
+    background: url(../img/desc/zigbee.png) no-repeat;
+    border-radius: 66px;
+    padding-left: 165px;
+  }
+  .zigbee__title {
+    padding-top: 200px;
+
+    font-size: 52.622px;
+    font-weight: 300;
+    line-height: 114%; /* 59.989px */
+  }
+  .zigbee__appeal,
+  .zigbee__appeal2 {
+    padding-top: 25px;
+    padding-right: 1150px;
+
+    font-size: 26.311px;
+    font-weight: 400;
+    line-height: 125%; /* 32.889px */
+    letter-spacing: 0.526px;
+  }
+  .zigbee__appeal3 {
+    padding-right: 1150px;
+    padding-bottom: 252px;
+
+    font-size: 39.467px;
+    font-weight: 300;
+    line-height: 125%;
+    letter-spacing: 0.789px;
+  }
+  .sensor {
+    background: url(../img/desc/sensor.png) top no-repeat;
+    padding: 0;
+    margin: 0;
+    background-position: 0 -153px;
+    flex: 1 0 0;
+  }
+  .other {
+    background: url(../img/desc/other.png) top no-repeat;
+    padding: 0;
+    margin: 0;
+    background-position: 0 30px;
+    flex: 1 0 0;
+  }
+  .zigbee__titleW {
+    padding: 0;
+    margin: 0 -100px;
+    margin-top: 850px;
+    margin-bottom: 50px;
+
+    text-align: center;
+    font-size: 52.622px;
+    font-weight: 300;
+    line-height: 114%; /* 59.989px */
+  }
+  .zigbee__appealW {
+    padding: 0;
+    margin: 0;
+    padding-bottom: 200px;
+
+    text-align: center;
+    font-size: 26.311px;
+    font-weight: 400;
+    line-height: 125%; /* 32.889px */
+    letter-spacing: 0.526px;
+  }
+  .other__text {
+    padding: 0;
+    margin: 0;
+  }
+  .other__appeal {
+    padding: 0;
+    margin: 0;
+
+    text-align: center;
+    font-size: 26.311px;
+    font-weight: 400;
+    line-height: 125%; /* 32.889px */
+    letter-spacing: 0.526px;
+    padding: 0 200px 0 200px;
+  }
+  .zigbee__textW {
+    padding: 0;
+    margin: 0;
+  }
+  .flex {
+    display: flex;
+    margin: 0 200px;
+  }
+
+  .last__pic {
+    background: url(../img/desc/last.png) bottom no-repeat;
+  }
+  .last {
+    background: none;
+  }
+
+  .lastW {
+    display: block;
+    display: flex;
+    color: white;
+    margin: 0 400px;
+    min-height: 1600px;
+  }
+  .lastW1,
+  .lastW2,
+  .lastW3 {
+    flex: 1 0 0;
+  }
+  .last__titleW,
+  .last__titleWW,
+  .last__titleW2,
+  .last__titleW3,
+  .last__titleA {
+    padding-bottom: 30px;
+
+    font-size: 41.111px;
+    font-weight: 500;
+    line-height: 120%; /* 49.333px */
+    letter-spacing: 0.411px;
+  }
+  .lastW1 {
+    padding-right: 600px;
+  }
+  .lastW3 {
+    position: relative;
+    top: 100px;
+    right: 90px;
+  }
+  .last__titleW {
+    padding-top: 400px;
+  }
+  .last__appealW,
+  .last__appealW2,
+  .last__appealW3 {
+    padding-bottom: 80px;
+
+    font-size: 24.667px;
+    font-weight: 300;
+    line-height: 130%; /* 32.067px */
+    letter-spacing: 0.247px;
+    opacity: 70%;
+  }
+  .last__titleA {
+    /* padding-top: 400px;
+    padding-right: 500px;
+    margin-left: -200px; */
+    position: relative;
+    top: 410px;
+    right: 325px;
+
+    font-size: 52.622px;
+    font-weight: 300;
+    line-height: 114%; /* 59.989px */
+  }
+  .last__titleA::before {
+    content: '—';
+    position: absolute;
+    left: -60px;
+  }
+  .last__titleWW {
+    font-size: 29.6px;
+    font-weight: 700;
+    line-height: 114%; /* 33.744px */
+
+    position: relative;
+  }
+  .last__titleWW::before {
+    content: url(../img/desc/Exclude.png);
+    position: absolute;
+    left: -110px;
+  }
+}

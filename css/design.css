@@ -1,0 +1,294 @@
+.design__title {
+  font-size: 92px;
+  line-height: 102.5%; /* 94.3px */
+  letter-spacing: 1.84px;
+  color: #121212;
+  margin-top: 103px;
+  margin-left: 70px;
+}
+
+.design__appeal {
+  color: #010101;
+  font-size: 32.2px;
+  font-weight: 300;
+  line-height: 118.5%; /* 38.157px */
+  letter-spacing: 0.644px;
+  margin-top: 67px;
+  margin-right: 300px;
+  margin-left: 70px;
+}
+
+.pic__black {
+  margin-top: 167px;
+  color: white;
+  border-radius: 46px;
+  overflow: hidden;
+  margin-bottom: 50px;
+}
+
+.pic__black-form {
+  background: url('../img/blackForm.png') bottom no-repeat;
+}
+.pic__title {
+  padding: 164px 0 27px 75px;
+  font-size: 32.2px;
+  font-weight: 700;
+  line-height: 108%; /* 34.776px */
+  letter-spacing: 0.644px;
+}
+.pic__appeal {
+  padding: 0 420px 80px 75px;
+  font-weight: 300;
+  font-size: 27.6px;
+  line-height: 125%; /* 34.5px */
+  letter-spacing: 0.552px;
+}
+.pic__title2 {
+  padding: 0 0 27px 75px;
+  font-size: 32.2px;
+  font-weight: 700;
+  line-height: 108%; /* 34.776px */
+  letter-spacing: 0.644px;
+}
+.pic__appeal2 {
+  padding: 0 420px 113px 75px;
+  font-size: 27.6px;
+  font-weight: 300;
+  line-height: 125%; /* 34.5px */
+  letter-spacing: 0.552px;
+}
+
+.pic__black-light {
+  background: url(../img/blackLight.png) top no-repeat;
+  flex: 1 0 391px;
+}
+.pic__title3 {
+  padding: 175px 0 25px 75px;
+  font-size: 32.2px;
+  font-weight: 700;
+  line-height: 108%; /* 34.776px */
+  letter-spacing: 0.644px;
+}
+.pic__appeal3 {
+  padding: 0 50px 60px 75px;
+  font-size: 27.6px;
+  font-weight: 300;
+  line-height: 125%; /* 34.5px */
+  letter-spacing: 0.552px;
+}
+
+.pic__black-stone {
+  background: url(../img/blackStone.png) top no-repeat;
+  flex: 1 0 368px;
+}
+.pic__appeal4 {
+  padding: 377px 0 45px 110px;
+  font-size: 27.6px;
+  font-weight: 300;
+  line-height: 125%; /* 34.5px */
+  letter-spacing: 0.552px;
+}
+
+.pic__blue {
+  color: white;
+  border-radius: 46px;
+  overflow: hidden;
+  margin-bottom: 50px;
+}
+.pic__blue-form {
+  background: url('../img/blueForm.png') bottom no-repeat;
+  padding-top: 100%;
+}
+.obert {
+  display: flex;
+  flex-direction: row;
+}
+
+.pic__blue-light {
+  background: url('../img/blueLight.png') bottom no-repeat;
+  flex: 1 0 391px;
+}
+.pic__blue-stone {
+  background: url('../img/blueStone.png') bottom no-repeat;
+  flex: 1 0 368px;
+}
+.pic__appeal5 {
+  padding: 367px 0 65px 110px;
+  font-size: 27.6px;
+  font-weight: 300;
+  line-height: 125%; /* 34.5px */
+  letter-spacing: 0.552px;
+}
+
+.pic__beidge {
+  color: white;
+  border-radius: 46px;
+  overflow: hidden;
+  margin-bottom: 50px;
+}
+.pic__beidge-form {
+  background: url('../img/beidgeForm.png') bottom no-repeat;
+  padding-top: 100%;
+}
+
+.pic__beidge-light {
+  background: url('../img/beidgeLight.png') bottom no-repeat;
+  flex: 1 0 391px;
+}
+.pic__beidge-stone {
+  background: url('../img/beidgeStone.png') bottom no-repeat;
+  flex: 1 0 368px;
+}
+.pic__appeal6 {
+  padding: 367px 0 65px 110px;
+  font-size: 27.6px;
+  font-weight: 300;
+  line-height: 125%; /* 34.5px */
+  letter-spacing: 0.552px;
+}
+
+.pic__red {
+  color: white;
+  border-radius: 46px;
+  overflow: hidden;
+  margin-bottom: 50px;
+}
+.pic__red-form {
+  background: url('../img/redForm.png') bottom no-repeat;
+  padding-top: 100%;
+}
+
+.pic__red-light {
+  background: url('../img/redLight.png') bottom no-repeat;
+  flex: 1 0 391px;
+}
+.pic__red-stone {
+  background: url('../img/redStone.png') bottom no-repeat;
+  flex: 1 0 368px;
+}
+.pic__appeal7 {
+  padding: 367px 0 65px 110px;
+  font-size: 27.6px;
+  font-weight: 300;
+  line-height: 125%; /* 34.5px */
+  letter-spacing: 0.552px;
+}
+.pic__rubi,
+.pic__title3W,
+.pic__appeal3W {
+  display: none;
+}
+
+@media (width>=2368px) {
+  .design__appeal,
+  .obert {
+    display: none;
+  }
+  .design__title {
+    color: var(--black, #121212);
+    font-size: 148px;
+    font-weight: 400;
+    line-height: 108%; /* 159.84px */
+    letter-spacing: -1.48px;
+    margin: 0;
+    padding: 300px 0 0 200px;
+  }
+  .pic__rubi {
+    display: block;
+    background: url(../img/desc/rubi.png) top no-repeat;
+    background-size: 100%;
+    color: white;
+    margin-top: 80px;
+    border-radius: 65px;
+  }
+  .pic__rubi-title {
+    display: inline-block;
+    background-color: red;
+    border-radius: 43px;
+    margin-top: 570px;
+    margin-left: 225px;
+    padding: 5px 15px;
+
+    text-align: center;
+    font-size: 24.118px;
+    font-weight: 400;
+    line-height: 125%; /* 30.148px */
+    letter-spacing: 0.482px;
+  }
+  .pic__rubi-appeal {
+    font-size: 26.311px;
+    font-weight: 400;
+    line-height: 125%; /* 32.889px */
+    letter-spacing: 0.526px;
+
+    padding-top: 55px;
+    padding-left: 225px;
+    margin-right: 1300px;
+    padding-bottom: 210px;
+  }
+  .pic__black-form {
+    background: url('../img/desc/black.png') bottom no-repeat;
+    color: white;
+  }
+  .pic__black {
+    margin-top: 50px;
+  }
+  .pic__title3W {
+    display: block;
+    font-size: 29.6px;
+    font-weight: 700;
+    line-height: 108%; /* 31.968px */
+    letter-spacing: 0.592px;
+
+    padding: 100px 0 40px 225px;
+  }
+  .pic__appeal3W {
+    display: block;
+    font-size: 26.311px;
+    font-weight: 400;
+    line-height: 125%; /* 32.889px */
+    letter-spacing: 0.526px;
+
+    padding: 0 1400px 0 225px;
+  }
+  .pic__title,
+  .pic__title2 {
+    font-size: 29.6px;
+    font-weight: 700;
+    line-height: 108%; /* 31.968px */
+    letter-spacing: 0.592px;
+
+    padding: 100px 0 40px 225px;
+  }
+  .pic__appeal {
+    font-size: 26.311px;
+    font-weight: 400;
+    line-height: 125%; /* 32.889px */
+    letter-spacing: 0.526px;
+
+    padding: 0 1400px 0 225px;
+  }
+  .pic__appeal2 {
+    font-size: 26.311px;
+    font-weight: 400;
+    line-height: 125%; /* 32.889px */
+    letter-spacing: 0.526px;
+
+    padding: 0 1400px 100px 225px;
+  }
+  .pic__beidge-form {
+    background: url('../img/desc/blue.png') top no-repeat;
+    padding-top: 925px;
+    padding-bottom: 50px;
+  }
+  .pic__blue-form {
+    background: url('../img/desc/beige.png') top no-repeat;
+    padding-top: 925px;
+    padding-bottom: 50px;
+  }
+  .pic__red-form {
+    background: url('../img/desc/red.png') top no-repeat;
+    padding-top: 925px;
+    padding-bottom: 50px;
+  }
+}

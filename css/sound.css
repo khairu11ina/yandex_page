@@ -1,0 +1,273 @@
+.sound__title {
+  font-size: 92px;
+  line-height: 102.5%; /* 94.3px */
+  letter-spacing: 1.84px;
+  color: #121212;
+  margin-top: 103px;
+  margin-left: 70px;
+}
+
+.sound__appeal {
+  color: #010101;
+  font-size: 32.2px;
+  font-weight: 300;
+  line-height: 118.5%; /* 38.157px */
+  letter-spacing: 0.644px;
+  margin-top: 67px;
+  margin-right: 300px;
+  margin-left: 70px;
+}
+
+.pic__sound {
+  background: url(../img/soundMain.png) top no-repeat;
+  color: white;
+  margin-bottom: 85px;
+}
+
+.sound__title2 {
+  padding: 950px 300px 27px 75px;
+  font-size: 32.2px;
+  font-weight: 700;
+  line-height: 108%; /* 34.776px */
+  letter-spacing: 0.644px;
+}
+
+.sound__appeal2 {
+  padding: 0 440px 80px 75px;
+  font-weight: 300;
+  font-size: 27.6px;
+  line-height: 125%; /* 34.5px */
+  letter-spacing: 0.552px;
+}
+
+.sound__title3 {
+  padding: 0 0 27px 75px;
+  font-size: 32.2px;
+  font-weight: 700;
+  line-height: 108%; /* 34.776px */
+  letter-spacing: 0.644px;
+}
+
+.sound__appeal3 {
+  padding: 0 360px 80px 75px;
+  font-weight: 300;
+  font-size: 27.6px;
+  line-height: 125%; /* 34.5px */
+  letter-spacing: 0.552px;
+}
+
+.sound__title4 {
+  padding: 0 0 102px 75px;
+  font-size: 32.2px;
+  font-weight: 700;
+  line-height: 108%; /* 34.776px */
+  letter-spacing: 0.644px;
+}
+
+.aqua {
+  background: url(../img/aqua.png) top no-repeat;
+  background-size: 100%;
+  color: white;
+  margin-bottom: 45px;
+  border-radius: 56px;
+  overflow: hidden;
+}
+.aqua__title,
+.mult__title,
+.stereo__title {
+  padding-top: 83px;
+  font-size: 55px;
+  font-weight: 300;
+  line-height: 120.5%; /* 66.463px */
+  letter-spacing: 1.103px;
+}
+.aqua__appeal,
+.mult__appeal,
+.stereo__appeal {
+  padding-top: 815px;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 125%; /* 45.54px */
+  letter-spacing: 0.729px;
+}
+.aqua__appeal2,
+.mult__appeal2,
+.stereo__appeal2 {
+  padding: 13px 100px 115px 0;
+  font-size: 32px;
+  font-weight: 300;
+  line-height: 125%; /* 40.588px */
+  letter-spacing: 0.649px;
+}
+span.under {
+  text-decoration-line: underline;
+}
+
+.mult {
+  background: url(../img/mult.png) top no-repeat;
+  background-size: 100%;
+  color: black;
+  margin-bottom: 45px;
+  border-radius: 56px;
+  overflow: hidden;
+}
+
+.stereo {
+  background: url(../img/stereo.png) top no-repeat;
+  background-size: 100%;
+  color: white;
+  border-radius: 56px;
+  overflow: hidden;
+}
+
+@media (width>=2368px) {
+  .pic__sound {
+    background: url(../img/desc/sound.png) top no-repeat;
+    color: #121212;
+    margin-bottom: 85px;
+    margin-top: -790px;
+  }
+  .sound__title {
+    margin-top: 450px;
+    padding-left: 150px;
+
+    font-size: 148px;
+    font-weight: 400;
+    line-height: 108%; /* 159.84px */
+    letter-spacing: -1.48px;
+  }
+  .sound__appeal {
+    padding-left: 150px;
+    padding-right: 1100px;
+
+    font-size: 29.6px;
+    font-weight: 400;
+    line-height: 125%; /* 37px */
+    letter-spacing: 0.296px;
+  }
+  .sound__title2 {
+    font-size: 29.6px;
+    font-weight: 700;
+    line-height: 130%; /* 38.48px */
+    letter-spacing: -0.296px;
+
+    padding: 1000px 1500px 25px 225px;
+  }
+  .sound__appeal2,
+  .sound__appeal3 {
+    font-size: 24.667px;
+    font-weight: 400;
+    line-height: 130%; /* 32.067px */
+    letter-spacing: 0.247px;
+
+    padding-left: 225px;
+    padding-right: 1400px;
+  }
+  .sound__title3,
+  .sound__title4 {
+    font-size: 29.6px;
+    font-weight: 700;
+    line-height: 130%; /* 38.48px */
+    letter-spacing: -0.296px;
+
+    padding: 50px 1200px 25px 225px;
+  }
+  .sound__title4 {
+    padding-bottom: 360px;
+  }
+  .aqua {
+    background: url(../img/desc/aqua.png) no-repeat;
+    margin-left: 1314px;
+    margin-top: 250px;
+  }
+  .mult {
+    background: url(../img/desc/mult.png) no-repeat;
+    margin-top: -1380px;
+  }
+  .mult__title {
+    margin-left: -50px;
+
+    font-size: 52.622px;
+    font-weight: 300;
+    line-height: 109%; /* 57.358px */
+  }
+  .mult__appeal {
+    padding-top: 720px;
+    margin-right: 1200px;
+    margin-left: -50px;
+
+    font-size: 29.6px;
+    font-weight: 700;
+    line-height: 125%; /* 37px */
+    letter-spacing: 0.592px;
+  }
+  .mult__appeal2 {
+    padding-bottom: 150px;
+    padding-right: 1220px;
+    margin-left: -50px;
+
+    font-size: 26.311px;
+    font-weight: 400;
+    line-height: 125%; /* 32.889px */
+    letter-spacing: 0.526px;
+  }
+  .aqua__title {
+    margin-left: -50px;
+
+    font-size: 52.622px;
+    font-weight: 300;
+    line-height: 109%; /* 57.358px */
+  }
+  .aqua__appeal {
+    margin-left: -50px;
+    padding-top: 720px;
+    margin-right: 100px;
+
+    font-size: 29.6px;
+    font-weight: 700;
+    line-height: 125%; /* 37px */
+    letter-spacing: 0.592px;
+  }
+  .aqua__appeal2 {
+    margin-left: -50px;
+    height: 400px;
+    margin-right: -200px;
+
+    font-size: 26.311px;
+    font-weight: 400;
+    line-height: 125%; /* 32.889px */
+    letter-spacing: 0.526px;
+  }
+  .stereo {
+    background: url(../img/desc/stereo.png) no-repeat;
+    margin-top: -1425px;
+    margin-left: 657px;
+    margin-bottom: 500px;
+  }
+  .stereo__title {
+    margin-left: -50px;
+
+    font-size: 52.622px;
+    font-weight: 300;
+    line-height: 109%; /* 57.358px */
+  }
+  .stereo__appeal {
+    margin-left: -50px;
+    margin-right: 600px;
+    padding-top: 720px;
+
+    font-size: 29.6px;
+    font-weight: 700;
+    line-height: 125%; /* 37px */
+    letter-spacing: 0.592px;
+  }
+  .stereo__appeal2 {
+    margin-left: -50px;
+    padding-right: 550px;
+
+    font-size: 26.311px;
+    font-weight: 400;
+    line-height: 125%; /* 32.889px */
+    letter-spacing: 0.526px;
+  }
+}
